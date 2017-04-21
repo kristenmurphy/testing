@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+heading {
+    font-family: "Great Vibes";
+    font-size: 55px;
+    width: 100%;
+    margin-left: 55px;
+}
+
+heading a {
+    text-decoration: none;
+    color: var(--txt-color);
+}
+
+h3 {
+    font-family: "Great Vibes";
+    font-weight: normal;
+    font-size: 60px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+footer {
+    padding: 15px;
+    border: 3px double;
+    color: black;
+    background-color: #fdfefe;
+    font-family: "Great Vibes";
+    font-size: 25px;
+    line-height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: bottom;
+}
+
+footer div {
+    margin-left: 5vw;
+}
+
+#normal {
+    font-family: "Oswald";
+    font-size: 20px;
+}
+
+button {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    border-radius: none;
+    text-decoration: none;
+}
+
+button:active {
+    border-color: transparent;
+}
+
+figcaption a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.social td {
+    max-width: 95vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.social figure {
+    font-size: 25px;
+    margin: 0px 15px 15px 15px;
+    background-color: rgba(255, 255, 255, .4);
+    padding: 30px;
+    border: 3px double;
+    font-family: "Oswald";
+    margin-bottom: 10vh;
+    -webkit-box-shadow: 10px 10px 6px 5px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 21px 31px 6px 5px rgba(0, 0, 0, 0.35);
+    box-shadow: 15px 15px 6px 5px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}

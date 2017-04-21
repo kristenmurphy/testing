@@ -1,0 +1,93 @@
+nav {
+    width: 100%;
+    font-size: 17px;
+    color: black;
+    border: 3px black double;
+    padding-left: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .8);
+    position: fixed;
+    font-family: "oswald";
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+.dropbtn {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2vw;
+    margin-right: 10vw;
+    display: block;
+    border: none;
+    font-family: "Oswald";
+    font-size: 20px;
+    background-color: transparent;
+    width: 10vw;
+}
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    color: black;
+    text-align: left;
+    padding: 7px 8px;
+    text-decoration: none;
+    display:block;
+    background-color: rgba(0,0,0,0);
+    border:none;
+    font-family:"Source Sans Pro";
+    font-size:20px;
+    text-transform:uppercase;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(0,0,0,0);
+    font-weight:bold;
+    display:inline;
+}
+
+li.dropdown {
+    display:block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    align:center;
+   
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align:right;
+}
+a:hover{
+    font-weight:bold;
+}
+
