@@ -1,0 +1,77 @@
+$tc: black;
+$bt: border-top;
+nav {
+    border-top: 1px solid $tc;
+    border-bottom: 1px solid $tc;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dropbtn {
+    color: $tc;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: "Oswald";
+    font-size: 20px;
+    background-color: transparent;
+}
+
+li {
+    margin-left: 2vw;
+    margin-right: 10vw;
+}
+
+li a,
+.dropbtn {
+    color: $tc;
+    text-align: left;
+    padding: 7px 8px;
+    text-decoration: none;
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    display: inline;
+}
+
+li.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    width: 95px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 0px;
+}
+
+.dropdown-content a {
+    color: $tc;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1 {
+    line-height:0px;
+    font-size: 45px;
+}
